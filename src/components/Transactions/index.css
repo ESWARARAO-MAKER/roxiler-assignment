@@ -1,0 +1,128 @@
+.transactions-container{
+    color: white;
+    width: 100%;
+    margin: 10px 40px;
+}
+.transactions-container>h1{
+    background-color: white;
+    color: blue;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+}
+.search-bar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.input{
+    position: relative;
+}
+.input>input{
+    height: 45px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 30px;
+}
+.search-icon{
+    position: absolute;
+    top: 34%;
+    left: 3%;
+    color: black;
+}
+.search-bar>select{
+    position: relative;
+    width: 150px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+.table{
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    color: white;
+    margin: 50px auto;
+    width: 90%;
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    background-color: #1e1e30;
+    border: 1px solid #475569;
+    border-radius: 10px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    width: 270px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+.tr1{
+    color: #ff073a;
+}
+.tr2{
+    color: #007bff;
+}
+.tr3{
+    color: #28a745;
+}
+.tr4{
+    color: #6c757d;
+}
+
+.left-right-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    box-sizing: border-box;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.left-right-buttons>span{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statastics{
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: gray;
+}
+.barcharts{
+    width: 90%;
+    margin: 40px auto;
+}
