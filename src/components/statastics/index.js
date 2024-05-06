@@ -8,7 +8,7 @@ export const Statastics = ({selectedMonth}) => {
     
     useEffect(()=>{
         const getStatastics = async () => {
-            const res = await axios.get(`http://localhost:4000/salesMonth?month=${selectedMonth}`)
+            const res = await axios.get(`https://roxiler-assignment-x8s5.onrender.com/salesMonth?month=${selectedMonth}`)
             const data = res.data
             setStatastics(data)
         }

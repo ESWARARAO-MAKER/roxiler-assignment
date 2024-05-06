@@ -10,7 +10,7 @@ export const Piechart = ({selectedMonth}) => {
 
     useEffect(()=>{
         const fetchData = async () => {
-            const res = await axios.get(`http://localhost:4000/piechart?month=${selectedMonth}`)
+            const res = await axios.get(`https://roxiler-assignment-x8s5.onrender.com/piechart?month=${selectedMonth}`)
             const data = res.data;
             console.log(data);
             setPieChartData(data)

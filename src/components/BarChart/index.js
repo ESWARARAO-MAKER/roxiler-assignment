@@ -9,7 +9,7 @@ export const Barchart = ({ selectedMonth }) => {
   useEffect(() => {
     const getBarchartData = async () => {
       try {
-        const response = await axios.get(`http://localhost:4000/barChart/?month=${selectedMonth}`);
+        const response = await axios.get(`https://roxiler-assignment-x8s5.onrender.com/barChart/?month=${selectedMonth}`);
         setBarchartData(response.data);
         //console.log(response.data);
       } catch (err) {

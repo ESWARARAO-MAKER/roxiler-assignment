@@ -34,7 +34,7 @@ export const Transactions = () => {
 
     useEffect(() => {
         const getTransactions = async () => {
-            const transactions = await axios.get(`http://localhost:4000/products?month=${selectedMonth}&page=${page}&search=${searchInput}&perPage=10`);
+            const transactions = await axios.get(`https://roxiler-assignment-x8s5.onrender.com/products?month=${selectedMonth}&page=${page}&search=${searchInput}&perPage=10`);
             //console.log(transactions.data);
             setTransactionsList(transactions.data)   
         }
