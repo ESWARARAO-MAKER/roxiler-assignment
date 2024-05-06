@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
-import { Bar, CartesianGrid, ResponsiveContainer, XAxis, YAxis, Legend, BarChart } from "recharts";
+import { Bar, ResponsiveContainer, XAxis, YAxis, Legend, BarChart } from "recharts";
 import axios from "axios";
 
 export const Barchart = ({ selectedMonth }) => {
