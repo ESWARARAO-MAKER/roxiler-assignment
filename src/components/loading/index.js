@@ -1,3 +1,4 @@
+import "./index.css"
 import {BallTriangle} from 'react-loader-spinner'
 
 export const Loading = () => {
